@@ -1,0 +1,34 @@
+body{
+    margin:0;       /*remove a margem ao redor do body*/
+    background-image:url("imgs/Céu.gif");       /*Adiciona o gif como fundo da página*/
+    background-size: 100%;      /*a imagem terá seu tamanho completo*/
+    background-repeat:no-repeat ;   /*o fundo não repetira*/
+    height: 100vh;   /*a altura da imagem não vai ultrapassar a altura */
+    background-position: center; /*centraliza o fundo*/
+    overflow: hidden;  /*esconde oque está fora do alcance do body*/
+}
+
+#setas{
+    width:150px; /*largura da imagem*/
+}
+.personagem{
+    width: 225px; 
+    position: absolute;     /*não ocupa um espaço, ou seja pode ser colocado em qualquer lugar da página*/
+    bottom:5px;     /*Distancia do fundo da página*/
+    height: 350px;  /*altura*/
+    display: flex; /*modo de distribuição dos conteudos dentro da div*/
+    justify-content: center; /*posição horizontal dos elementos dentro da div*/
+    align-items: center; /*posição vertical dos elementos dentro da div*/
+    margin: 0px; 
+    left:45%; /*Distancia da div do extremo esquerdo da página*/
+    padding: 0; /*Distancia interna da div entre os elementos e a borda dela*/
+    
+}
+.cat{
+    width: 350px;
+    position: absolute;
+    bottom:5px;
+    height: 400px;
+    margin:0px;
+    padding: 0;
+}
